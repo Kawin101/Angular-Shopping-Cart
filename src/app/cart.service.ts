@@ -7,6 +7,7 @@ import { Product, products } from './products';
 export class CartService {
 
   cartitems: Product[] = [];
+
   totalprice = 0;
   event: EventEmitter<null> = new EventEmitter();
 

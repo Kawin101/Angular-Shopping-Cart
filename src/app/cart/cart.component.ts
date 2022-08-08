@@ -23,6 +23,7 @@ export class CartComponent implements OnInit {
   }
   clearCart() {
     this.items = [];
+    this.total = 0;
     return this.items;
   }
 }
