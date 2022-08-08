@@ -1,7 +1,7 @@
 <div class="wrapper" *ngFor="let i of items">
 
     <span><a>Name: </a> {{ i.name }} </span>
-    <span><a>, Quantity: </a> {{ i.quantity}} </span>
+    <span><a>, Quantity: </a> {{ i.quantity }} </span>
     <span><a>, Price: </a> {{ i.price | currency: "THB " }} </span>
     
     <button (click)="clear(i.id)">
