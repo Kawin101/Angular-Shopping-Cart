@@ -1,2 +1,2 @@
-# Angular12-Shopping_Cart
+# Angular-Shopping_Cart
  newbie programming 3-8-2022
